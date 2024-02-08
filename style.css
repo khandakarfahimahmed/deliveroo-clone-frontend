@@ -1,0 +1,180 @@
+header {
+  display: flex;
+  size: 2px;
+  color: #35b8b2;
+  font-weight: bold;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+}
+body {
+  background-color: black;
+}
+header img {
+  width: 50px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding-left: 50%;
+  justify-content: space-between;
+}
+/* Style for dropdown button */
+.dropdown-button {
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove default button border */
+  background-color: #fff; /* Set button background color to white */
+  color: #333; /* Set button text color to light black */
+  border-radius: 10px; /* Set border radius to create rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  position: relative; /* Set position relative for icon positioning */
+  padding-left: 35px;
+  font-size: 16px;
+  border: #333;
+}
+
+/* Style for dropdown icon */
+.dropdown-button i {
+  position: absolute; /* Set position absolute for icon */
+  left: 10px; /* Position icon 10px from the left */
+  top: 50%; /* Vertically center icon */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  color: #01ccbc; /* Set color of dropdown icon */
+}
+
+/* Style for hover effect */
+.dropdown-button:hover {
+  background-color: #f2f2f2; /* Change background color on hover */
+}
+
+/* Style for home button */
+.home-button {
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove default button border */
+  background-color: #fff; /* Set button background color to white */
+  color: #333; /* Set button text color to light black */
+  border-radius: 10px; /* Set border radius to create rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  position: relative; /* Set position relative for icon positioning */
+  padding-left: 37px;
+  font-size: 16px;
+}
+
+/* Style for home icon */
+.home-button i {
+  position: absolute; /* Set position absolute for icon */
+  left: 10px; /* Position icon 10px from the left */
+  top: 50%; /* Vertically center icon */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  color: #01ccbc; /* Set color of home icon */
+}
+
+/* Style for hover effect */
+.home-button:hover {
+  background-color: #f2f2f2; /* Change background color on hover */
+}
+
+/* Style for human button */
+.human-button {
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove default button border */
+  background-color: #fff; /* Set button background color to white */
+  color: #333; /* Set button text color to light black */
+  border-radius: 10px; /* Set border radius to create rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  position: relative; /* Set position relative for icon positioning */
+  padding-left: 37px;
+  font-size: 16px;
+}
+
+/* Style for human icon */
+.human-button i {
+  position: absolute; /* Set position absolute for icon */
+  left: 10px; /* Position icon 10px from the left */
+  top: 50%; /* Vertically center icon */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  color: #01ccbc; /* Set color of human icon */
+}
+
+/* Style for hover effect */
+.human-button:hover {
+  background-color: #f2f2f2; /* Change background color on hover */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  width: 590px;
+  padding-left: 33%;
+}
+h2 {
+  color: azure;
+  font-weight: bold;
+  font-size: 42px;
+}
+p {
+  color: azure;
+  padding-left: 41%;
+  font-size: 16px;
+}
+
+/* Style for search container */
+.search-container {
+  display: flex; /* Make container a flex container */
+  align-items: center; /* Align items vertically in the center */
+}
+
+/* Style for search box */
+.search-box {
+  padding: 10px; /* Add padding to the search box */
+  border: none; /* Remove default border */
+  border-radius: 20px 0 0 20px; /* Set border radius for left side */
+  background-color: #fff; /* Set background color to white */
+  width: 200px; /* Set width for the search box */
+}
+
+/* Style for search button */
+/* Style for search container */
+.search-container {
+  display: flex; /* Make container a flex container */
+  align-items: center; /* Align items vertically in the center */
+}
+
+/* Style for search box */
+.search-box {
+  padding: 25px; /* Add padding to the search box */
+  border: none; /* Remove default border */
+  border-radius: 20px 0 0 20px; /* Set border radius for left side */
+  background-color: #fff; /* Set background color to white */
+  width: 200px; /* Set width for the search box */
+}
+
+/* Style for search button */
+.search-button {
+  padding: 25px 30px; /* Add padding to the search button */
+  border: none; /* Remove default border */
+  border-radius: 0 20px 20px 0; /* Set border radius for right side */
+  background-color: #00ccbc; /* Set background color to blue */
+  color: #fff; /* Set button text color to white */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Style for hover effect on search button */
+.search-button:hover {
+  background-color: #00ccbc; /* Change background color on hover */
+}
+.src {
+  padding-left: 37%;
+}
+/* Style for image list container */
+.image-list {
+  display: flex; /* Make container a flex container */
+}
+
+/* Style for images */
+.image-list img {
+  margin-right: 10px; /* Add space between images */
+}
